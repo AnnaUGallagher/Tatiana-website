@@ -1,0 +1,118 @@
+:root {
+  background-color: white;}
+  * { box-sizing: border-box;
+    margin:0;
+    padding:0;}
+    /*header*/
+  a, .navbar-light .navbar-nav .nav-link {
+    color:black;
+    text-align: left;
+    }
+        
+  .card-title1,.card-title2 {   
+    text-align:start;
+      font-family: 'Dancing Script', cursive;
+      margin-top:40px;
+       }
+  
+   .card1 {
+     margin-top:48px;
+      margin-bottom:5px;}
+     .card-title2 {
+      visibility: hidden; }
+      
+      /*buttons*/
+     .btn-dark {
+      background-color:black;
+      border-color: black;} 
+
+    button[type="button"]:focus{
+      background-color:blueviolet;
+      transition: background-color 1s ease-in-out;} 
+  
+    button[type="button"]:hover {
+      background-color:  #f8b0b0;
+      transition:background-color 0.5s ease-in-out;}
+     /*images*/
+    .imgTanya{
+      max-width: 93%; 
+      height: 65vh;
+      border-radius: 8px;
+      border: 1px solid rgb(192, 187, 187);
+      border-radius: 4px;
+      padding: 5px;}
+ 
+
+      .card-deck{
+      background-image: url("photos/testback.jpg");
+      background-repeat: no-repeat, repeat;
+    }
+  
+   h2 {
+    text-align: center;
+    margin:15px 0;
+   }
+  .text{
+    margin:10px;
+  }
+     h5{
+      margin:10px 0;
+     }
+    footer{
+  
+      clear: both;
+      position: relative;
+      height: 60px;
+      margin-top: -200px;
+
+        width: 100%;
+      background-color: #f8b0b0;
+      margin:10px 0;
+      
+        text-align: center;
+      }
+   
+  
+
+  @media screen and (min-width: 768px) {
+    .card-title1 {
+      font-size: 5em;
+      text-shadow: 3px 3px;}
+    
+     
+      .card-title2 {
+        font-size:x-large;}
+      
+    .card-title2 {
+      visibility: visible;
+     margin-top: 10px; }
+     .container1 {
+      margin-left: 10px;
+     }
+     .card-body{
+      text-align: left;
+     }
+     .info{
+      text-indent: 10px;
+     min-width:95%;
+     text-align: center;
+     
+    }
+  
+    .imgTanya{
+      float: left;
+     overflow: auto;
+     max-width: 75%; 
+     height: 80vh;
+     margin:10px 10px;
+     border-radius: 8px;
+     border: 1px solid rgb(192, 187, 187);
+     border-radius: 4px;
+     padding: 5px;}
+
+   .card-img-top{
+     max-width: 85%;
+     height: 60vh;}
+}
+    
+      
